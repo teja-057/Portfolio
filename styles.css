@@ -1,0 +1,127 @@
+body {
+    padding-top: 56px;
+  }
+  .section {
+    padding: 60px 0;
+  }
+  .bold{
+      font-size: 2rem;
+  }
+  .navbar-brand {
+    font-weight: bold;
+  }
+
+  /* About Section Styles */
+.about-section {
+    background-color: #f8f9fa; 
+    padding: 50px 0;
+}
+
+ h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #007bff; 
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.about-section p {
+    font-size: 1.125rem;
+    color: #333; 
+    line-height: 1.6;
+    max-width: 800px; 
+    margin: 0 auto;
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+    .about-section h2 {
+        font-size: 1.75rem; 
+    }
+    
+    .about-section p {
+        font-size: 1rem;
+    }
+}
+
+  /* Education Section Styles */
+#education {
+    background-color: #f8f9fa; 
+}
+
+.education-item {
+    background-color: #ffffff; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.education-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.15);
+}
+
+.education-item h5 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.education-item .institution {
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+.education-item p {
+    font-size: 1rem;
+    color: #495057;
+}
+
+@media (max-width: 576px) {
+    .education-item {
+        padding: 15px;
+    }
+}
+
+/* Skills Section Styles */
+.skills {
+    background-color: #f8f9fa; 
+    padding: 50px 0; 
+}
+
+.skills h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #007bff;
+}
+
+/* Set all images to have the same size */
+.skill-img {
+    height: 100px; 
+    width: 100%;
+    transition: transform 0.3s ease;
+     box-shadow:5px 5px 5px rgb(87, 79, 79);
+}
+
+
+.skill-img:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); 
+}
+
+
+@media (max-width: 576px) {
+    .skills h2 {
+        font-size: 1.75rem; /* Slightly smaller title on smaller screens */
+    }
+
+}
+  .contact-form input, .contact-form textarea {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .contact-form button {
+    width: 40%;
+  }
